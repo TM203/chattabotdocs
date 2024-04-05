@@ -1,17 +1,55 @@
-## Logging 
+import { Steps } from 'nextra/components'
+import { FileTree } from 'nextra/components'
+import { Callout } from 'nextra/components'
 
-### Log Events
-Log events to automatically sent to a selected channel.
+### Logging
+Configure event triggers, such as message deletion or message alteration, to send logs to the designated channel.
+
+### Change Bots Logged
+If you want bot’s to be logged, turn on the slider.
+
+## Warns
+Turn on slider to enable
+Logs when a mod executes the ```/warn``` command.
+
+### Warn Message
+The warn message sent to the user.
+
+### Warn Limit
+The limit to recommend to mods when to recommend banning.
+
+### Warn Timeout
+Timeout, the user for an amount of time after they have been warned.
 
 
-#### Log Bots
-To log events executed by bots
-#### Mod Roles
+## Channel To Not log
+Select channels to not log events 
 
-The mod roles are roles that will remember users events who have the role.
+## Roles Not To Log
+Selected roles not to log. Any user who has the role won’t be logged.
 
-You can use the command `/modstats` to see how well your **Mods / Admins** are doing.
+## Executor Stats
+A way to check your mods actions, command ```/modstats```
+
+## Channel
+The channel to send logs to
+
+ 
 
 
-#### Channel
-The selected Channel to send events to.
+<Steps>
+### Step 1
+
+ Select the channel to log
+
+### Step 2
+
+Select the sliders on events you want enabled
+ 
+
+### Step 3
+
+Update
+ 
+
+</Steps>
